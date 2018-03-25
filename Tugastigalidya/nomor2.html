@@ -1,0 +1,41 @@
+<html>
+<head><title>Belajar CSS</title>
+<style>
+#segi-delapan {
+ width: 200px;
+ height: 100px; 
+ padding:10px;
+ background: #0284cf;
+ position: relative; }
+
+ #segi-delapan:before { 
+ content: ""; 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ border-bottom:10px solid #0284cf;
+ border-left: 10px solid #ffffff;
+ border-right: 10px solid #ffffff;
+ width: 200px; height: 0; } 
+ 
+ #segi-delapan:after { content: ""; 
+ position: absolute;
+ bottom: 0; left: 0; 
+ border-top: 10px solid #0284cf;
+ border-left: 10px solid #ffffff;
+ border-right: 10px solid #ffffff;
+ width: 200px; 
+ height: 0; } 
+ </style>
+ </head>
+ <body text= "#ffffff">
+ <div id="segi-delapan">
+Fokus dong, fahami dan pelajari mata kuliah ini, biar jadi pakar di web developer, kan asik
+</div>
+</body>
+</html>
+		
+		
+		
+		
+		
